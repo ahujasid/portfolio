@@ -1,0 +1,127 @@
+@media only screen and (max-width: 768px) {
+
+.h1{
+    font-family: sofia-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 56px;
+}
+
+.h2{
+    font-family: sofia-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+}
+
+
+.h3{
+    font-family: sofia-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;
+}
+
+.caption{
+    font-family: sofia-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 21px;
+    line-height: 1.5;
+    color: #555;
+
+}
+
+p{
+    font-family: sofia-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.section-heading{
+    font-family: sofia-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 21px;
+    color: #888;
+    padding-top: 280px;
+    /* padding-bottom: 8px; */
+}
+
+.eightyw{
+    width: 80%;
+    margin: auto;
+}
+
+.main-container{
+    width: 80%;
+    margin: auto;
+}
+
+.main-banner{
+    display: flex;
+    flex-flow: column;
+    /* height: 300px; */
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.main-intro{
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.main-title{
+    margin-bottom: 16px;
+}
+
+
+.main-image{
+    width: 100%;
+}
+
+.main-image img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.project{
+    width: 100%;
+}
+
+.project:hover{
+    background: #3A4EFF;
+}
+
+
+.project-content{
+    padding: 0% 0%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 24px 0px;
+}
+
+.project-title{
+    width: 100%;
+}
+
+.project-description{
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+
+.project-img{
+    display: none;
+}
+
+}
